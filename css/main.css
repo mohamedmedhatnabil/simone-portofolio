@@ -2,6 +2,7 @@
     --main:hsla(0, 0%, 98%, 1);
     --green_hover:#20c997;
     --mint_gray:#4c4d4d;
+    --download-cv-bttn:#6c757d;
 }
 body{
     background-color: var(--main);
@@ -36,14 +37,14 @@ body{
 /*End Navbar*/
 /*start of home section*/
 /*Start landing*/
-  .btn{
+  .hire-me-btn{
     border-color: var(--green_hover);
     color: var(--green_hover);
     border-width: 2px;
     transition: all .5s ease;
     padding:.375rem 1.75rem;
   }
-.btn:hover{
+.hire-me-btn:hover{
     background-color: var(--green_hover);
     border-color: var(--green_hover);
   }
@@ -228,11 +229,27 @@ p{
 }
 /*End Services Section*/
 /*Start Resume Section*/
+.skills_me{
+    padding: 15px 0;
+}
 
-
-
-
-
-
-
+.progress-bar{
+    background-color: var(--green_hover);
+}
+.download-cv-btn{
+    border-color: var(--download-cv-btt);
+    color: var(--download-cv-btt);
+    border-width: 2px;
+    transition: all .5s ease;
+    padding:.375rem 1.75rem;
+}
+.download-cv-btn:hover{
+    border-color: var(--download-cv-bttn);
+    background-color: var(--download-cv-bttn);
+}
 /*End Resume Section*/
+
+/*Start My Work Section*/
+
+
+/*End My Work Section*/
