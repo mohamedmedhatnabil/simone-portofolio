@@ -278,3 +278,36 @@ p{
     opacity: 1;
 }
 /*End My Work Section*/
+
+/*Start SPEAK Section*/
+.testimonial-card {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.testimonial-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.star-rating {
+    color: #ffd700;
+}
+/*End SPEAK SECTION*/
+
+/*START CONTACT SECTION*/
+.contact{
+    background-color: rgba(238, 235, 235, 0.7);
+
+}
+.contact i{
+    color:var(--green_hover);
+}
+/*END CONTACT SECTION*/
+
+footer .span_hovere{
+    color:#293946;
+    cursor: pointer;
+}
